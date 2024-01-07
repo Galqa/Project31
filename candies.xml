@@ -1,0 +1,18 @@
+
+<!-- Створити xml-документ candies.xml з кореневим елементом <factory>,
+який міститиме у собі кілька <candy> з характеристиками цукерки -->
+
+<factory>
+    <candy name="Чупа-чупс" energy="50">
+        <type>льодяник</type>
+        <type>з начинкою</type>
+        <ingredients water="50" sugar="50" type="Льодяник"/>
+        <production>Арія</production>
+    </candy>
+    <candy name="Желейка" energy="100">
+        <type>желейна</type>
+        <type>з начинкою</type>
+        <ingredients water="5" sugar="14" type="Желейна"/>
+        <production>Сонет</production>
+    </candy>
+</factory>
